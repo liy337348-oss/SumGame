@@ -1,0 +1,60 @@
+export const translations = {
+  en: {
+    title: "SumMerge",
+    subtitle: "Select numbers to reach the target sum. Don't let the blocks reach the top!",
+    classicMode: "Classic Mode",
+    classicDesc: "Add a row after each success",
+    timeMode: "Time Mode",
+    timeDesc: "Race against the clock",
+    bestScore: "Best Score",
+    target: "Target",
+    current: "Current",
+    score: "Score",
+    resume: "Resume",
+    pause: "Pause",
+    gameOver: "Game Over",
+    gameOverDesc: "The blocks reached the top!",
+    tryAgain: "Try Again",
+    mainMenu: "Main Menu",
+    paused: "Paused",
+    quit: "Quit to Menu",
+    howToPlay: "How to Play",
+    instructions: [
+      "Click blocks to select them.",
+      "The sum of selected blocks must equal the Target.",
+      "Blocks don't need to be adjacent.",
+      "Classic: New row adds after each success.",
+      "Time: New row adds every 10 seconds.",
+      "Game ends if blocks reach the top!"
+    ]
+  },
+  cn: {
+    title: "数字求和消除",
+    subtitle: "点击方块使数字之和等于目标值。不要让方块堆积到顶部！",
+    classicMode: "经典模式",
+    classicDesc: "每次成功消除后新增一行",
+    timeMode: "计时模式",
+    timeDesc: "与时间赛跑，挑战极限",
+    bestScore: "最高分",
+    target: "目标值",
+    current: "当前和",
+    score: "得分",
+    resume: "继续",
+    pause: "暂停",
+    gameOver: "游戏结束",
+    gameOverDesc: "方块已经触顶了！",
+    tryAgain: "再试一次",
+    mainMenu: "返回主菜单",
+    paused: "已暂停",
+    quit: "退出游戏",
+    howToPlay: "游戏说明",
+    instructions: [
+      "点击方块选择数字。",
+      "所选数字之和必须等于屏幕顶部的“目标值”。",
+      "数字不需要相邻，可以跨区域选择。",
+      "经典模式：每次成功凑数后，底部新增一行。",
+      "计时模式：每10秒强制新增一行。",
+      "如果方块堆积到屏幕最上方，游戏结束！"
+    ]
+  }
+};
